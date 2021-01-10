@@ -4,12 +4,14 @@
 **[capture.sh](capture.sh)** - A shell script used to get a still image from Reolink IP camera.
 Usage examples:
 
- - get a single image
+get a single image
  
 `./capture.sh -a [camera_ip] -P [camera_port] -u [camera_user] -p [camera_password]`
-- running continuously getting images at certain interval of time (in seconds)
+
+running continuously getting images at certain interval of time (in seconds)
 
 `./capture.sh -a [camera_ip] -P [camera_port] -u [camera_user] -p [camera_password] -i [time_interval]`
-- show help
+
+show help
 
 `./capture.sh -h`
